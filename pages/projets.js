@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Projects.module.css";
-const path = "/../public/images/";
+const path = "/images/";
 
 export default function Projets() {
 	return (
