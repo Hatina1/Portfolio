@@ -23,10 +23,10 @@ const Navbar = () => {
 						Projets
 					</a>
 				</Link>
-				<Link href="/parcours" passHref>
+				<Link href="/career" passHref>
 					<a
 						className={
-							router.pathname == "/parcours" ? styles.active : styles.category
+							router.pathname == "/career" ? styles.active : styles.category
 						}
 					>
 						Parcours
