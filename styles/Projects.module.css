@@ -77,9 +77,11 @@
 	margin: 0.5rem 0 0 0;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1rem;
+	font-weight: bold;
 }
 .card_desc {
-	margin: 0.2rem 0;
+	margin-bottom: 0.2rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 0.8rem;
+	font-style: italic;
 }
