@@ -22,7 +22,7 @@
 
 .section {
 	width: 80%;
-	margin: 25px 80px 60px 80px;
+	margin: 25px 80px 20px 80px;
 }
 .link {
 	text-decoration: underline;
@@ -52,28 +52,33 @@
 }
 
 .main_container {
-	margin: 0 4rem;
-	display: grid;
+	margin: 0 1rem;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	grid-template-columns: 1fr 1fr;
-	gap: 0;
 }
 
 .icon {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: 1.5rem;
+	margin-bottom: -3px;
+	animation: spanmove 0.2s 0.8s backwards;
 }
 
 .card {
 	margin: 0;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
-	height: 65px;
 }
+
+/*
+
+height: 65px;
 
 .card:nth-child(4n + 2),
 .card:nth-child(4n + 4) {
@@ -84,36 +89,70 @@
 .card:nth-child(4n + 1) {
 	justify-content: flex-end;
 	border-right: 1px solid #fff;
-}
+}*/
 
-.card_lines_short {
-	height: 2px;
-	width: 50px;
+.card_lines {
+	height: 40px;
+	width: 3px;
 	background-color: rgba(198, 35, 104, 1);
+	margin-top: 5px;
+	animation: spanmove 0.2s 0.8s backwards;
 }
 
-.card_lines_long {
-	height: 2px;
-	width: 90px;
-	background-color: rgba(198, 35, 104, 1);
-}
-
-.card_span_left:nth-child(4n + 3) {
-	margin-top: -9px;
-	margin-left: -3px;
-	color: rgba(198, 35, 104, 1);
-	font-size: 50px;
-}
-.card_span_right:nth-child(4n + 2) {
-	margin-top: -9px;
-	margin-left: -3px;
-	color: rgba(198, 35, 104, 1);
-	font-size: 50px;
+@keyframes spanmove {
+	from {
+		transform: translate(-9999px);
+	}
+	to {
+		transform: translate(0px);
+	}
 }
 
 .card_text {
 	padding: 0 0.3rem;
 	color: #001220;
-	color: #fff;
-	width: 50%;
+	width: min(350px, 75%);
+	padding: 0.5rem 1rem;
+	border: 2px solid darkorchid;
+	border-radius: 20px;
+	background-color: #fafafa;
+}
+.card_text_left {
+	transform: translate(-40px);
+	animation: text_l 1s backwards;
+}
+
+@keyframes text_l {
+	from {
+		transform: translate(-9999px);
+	}
+	to {
+		transform: translate(0px);
+	}
+}
+
+.card_text_right {
+	transform: translate(40px);
+	animation: text_r 1s backwards;
+}
+
+@keyframes text_r {
+	from {
+		transform: translate(9999px);
+	}
+	to {
+		transform: translate(0px);
+	}
+}
+
+.card_text a {
+	color: #0070f3;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+	.section {
+		width: 75%;
+		margin: 0px 0 50px 40px;
+	}
 }

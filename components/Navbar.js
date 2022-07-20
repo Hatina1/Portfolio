@@ -8,8 +8,8 @@ const Navbar = () => {
 	const router = useRouter();
 
 	return (
-		<div className={styles.navbar}>
-			<div className={styles.name}>Hata COULIBALY </div>
+		<div className={`${styles.navbar}`}>
+			<div className={`${styles.name}`}>Hata COULIBALY </div>
 			<div className={styles.links}>
 				<a href="/">
 					<FontAwesomeIcon icon={faHome} className={styles.icon} />

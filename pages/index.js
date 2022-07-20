@@ -16,14 +16,8 @@ export default function Home() {
 					<h2 className={styles.subtitle}>Développeuse web</h2>
 					<p className={styles.description}>
 						Vous pourrez découvrir ici mon{" "}
-						<Link href="/parcours" className={styles.links}>
-							parcours
-						</Link>{" "}
-						et les{" "}
-						<Link href="/projets" className={styles.links}>
-							projets
-						</Link>{" "}
-						réalisés.
+						<Link href="/parcours">parcours</Link> et les{" "}
+						<Link href="/projets">projets</Link> réalisés.
 					</p>
 				</section>
 			</main>

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Career.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
@@ -35,96 +35,82 @@ export default function Career() {
 				<section className={styles.main_container}>
 					<figure className={styles.card}>
 						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
-					</figure>
-					<figure className={styles.card}>
-						<div className={styles.card_lines_short}></div>
-						<span className={styles.card_span_right}>·</span>
-						<figcaption className={styles.card_text}>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_left}`}
+						>
 							2022 : Création de mon portfolio
 						</figcaption>
 					</figure>
 					<figure className={styles.card}>
-						<figcaption className={styles.card_text}>
-							2021 : Formation Développeur/se web - Openclassrooms Voir les
-							projets réalisés.
-						</figcaption>
-						<div className={styles.card_lines_long}></div>
-						<span className={styles.card_span_left}>·</span>
-					</figure>
-					<figure className={styles.card}>
 						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
-					</figure>
 
-					<figure className={styles.card}>
-						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_right}`}
+						>
+							2021 : Formation Développement web - Openclassrooms. Voir les{" "}
+							<Link href="/projets" className={styles.links}>
+								projets
+							</Link>
+							.
+						</figcaption>
 					</figure>
 					<figure className={styles.card}>
-						<div className={styles.card_lines_short}></div>
-						<span className={styles.card_span_right}>·</span>
-						<figcaption className={styles.card_text}>
+						<div className={styles.card_lines}></div>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_left}`}
+						>
 							2018 : International souscirpteur senior - Allianz Partners
 						</figcaption>
 					</figure>
 
 					<figure className={styles.card}>
-						<figcaption className={styles.card_text}>
+						<div className={styles.card_lines}></div>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_right}`}
+						>
 							2016: Actuaire Pricing - Société Générale Insurance
 						</figcaption>
-						<div className={styles.card_lines_short}></div>
-						<span className={styles.card_span_left}>·</span>
-					</figure>
-					<figure className={styles.card}>
-						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
 					</figure>
 
 					<figure className={styles.card}>
 						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
-					</figure>
-					<figure className={styles.card}>
-						<div className={styles.card_lines_long}></div>
-						<span className={styles.card_span_right}>·</span>
-						<figcaption className={styles.card_text}>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_left}`}
+						>
 							2011: Actuaire reserving - BNP Paribas Cardif Italy
 						</figcaption>
 					</figure>
 					<figure className={styles.card}>
-						<figcaption className={styles.card_text}>
+						<div className={styles.card_lines}></div>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_right}`}
+						>
 							2010 : Master TIDE
 						</figcaption>
-						<div className={styles.card_lines_long}></div>
-						<span className={styles.card_span_left}>·</span>
-					</figure>
-					<figure className={styles.card}>
-						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
 					</figure>
 
 					<figure className={styles.card}>
 						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
-					</figure>
-					<figure className={styles.card}>
-						<div className={styles.card_lines_short}></div>
-						<span className={styles.card_span_right}>·</span>
-						<figcaption className={styles.card_text}>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_left}`}
+						>
 							2007 : Licence en Économétrie
 						</figcaption>
 					</figure>
 					<figure className={styles.card}>
-						<figcaption className={styles.card_text}>
-							2005 : Baccalauréat Économiques et Sociales
-						</figcaption>
-						<div className={styles.card_lines_short}></div>
-						<span className={styles.card_span_left}>·</span>
-					</figure>
-					<figure className={styles.card}>
 						<div className={styles.card_lines}></div>
-						<figcaption className={styles.card_text}></figcaption>
+
+						<figcaption
+							className={`${styles.card_text} ${styles.card_text_right}`}
+						>
+							2005 : Baccalauréat Sciences Économiques et Sociales
+						</figcaption>
 					</figure>
 				</section>
 			</main>

@@ -63,3 +63,17 @@
 	height: 20px;
 	color: white;
 }
+
+@media screen and (max-width: 375px) {
+	.navbar {
+		flex-direction: column;
+	}
+	.name {
+		justify-content: center;
+		margin-left: 0;
+	}
+	.links {
+		justify-content: center;
+		margin-right: 0;
+	}
+}

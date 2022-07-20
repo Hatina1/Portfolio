@@ -92,3 +92,10 @@
 	color: rgb(170, 32, 75);
 	font-weight: bold;
 }
+
+@media screen and (max-width: 375px) {
+	.section {
+		width: 75%;
+		margin: 0px 0 50px 40px;
+	}
+}
