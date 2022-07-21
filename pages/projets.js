@@ -1,14 +1,19 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Projects.module.css";
-const path = "/images/";
+import favicon from "../public/images/favicon.ico";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 export default function Projets() {
+	const path = "/images/";
 	return (
 		<div className={styles.container}>
 			<Head>
 				<title>Hata Coulibaly Portfolio</title>
 				<meta name="description" content="Site développement web portfolio" />
+				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
 			</Head>
 
 			<main className={styles.main}>

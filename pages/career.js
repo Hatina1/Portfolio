@@ -3,14 +3,17 @@ import Link from "next/link";
 import styles from "../styles/Career.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
-
+import favicon from "../public/images/favicon.ico";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 export default function Career() {
-	const path = "../public/assets/";
 	return (
 		<div className={styles.container}>
 			<Head>
 				<title>Hata Coulibaly Portfolio</title>
 				<meta name="description" content="Site développement web portfolio" />
+				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
 			</Head>
 
 			<main className={styles.main}>
