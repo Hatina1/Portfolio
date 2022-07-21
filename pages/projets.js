@@ -35,7 +35,7 @@ export default function Projets() {
 						<figcaption className={styles.card_text}>
 							<h2 className={styles.card_title}>Groupomania</h2>
 							<p className={styles.card_desc}>
-								Création d'une social app d'entreprise
+								Création d&#39une social app d&#39entreprise
 							</p>
 							<p className={styles.card_tools_desc}>
 								NodeJS, Express, Sequelize, MySQL, ReactJS, Bootstrap, Giphy API
@@ -53,7 +53,7 @@ export default function Projets() {
 						<figcaption className={styles.card_text}>
 							<h2 className={styles.card_title}>Kanap</h2>
 							<p className={styles.card_desc}>
-								Création d'un site de e-commerce dynamique
+								Création d&#39un site de e-commerce dynamique
 							</p>
 							<p className={styles.card_tools_desc}>HTML, CSS, Javascript</p>
 						</figcaption>
@@ -69,7 +69,7 @@ export default function Projets() {
 						<figcaption className={styles.card_text}>
 							<h2 className={styles.card_title}>Oh My Food</h2>
 							<p className={styles.card_desc}>
-								Dynamisation d'une page web avec des animations CSS
+								Dynamisation d&#39une page web avec des animations CSS
 							</p>
 							<p className={styles.card_tools_desc}>HTML, CSS, SASS</p>
 						</figcaption>
@@ -85,7 +85,7 @@ export default function Projets() {
 						<figcaption className={styles.card_text}>
 							<h2 className={styles.card_title}>Booki</h2>
 							<p className={styles.card_desc}>
-								Transformation d'une maquette en site web
+								Transformation d&#39une maquette en site web
 							</p>
 							<p className={styles.card_tools_desc}>HTML, CSS</p>
 						</figcaption>
@@ -101,7 +101,7 @@ export default function Projets() {
 						<figcaption className={styles.card_text}>
 							<h2 className={styles.card_title}>Hot Takes</h2>
 							<p className={styles.card_desc}>
-								Construction d'une API sécurisée
+								Construction d&#39une API sécurisée
 							</p>
 							<p className={styles.card_tools_desc}>
 								MongoDB, NodeJS, Express, Javascript
@@ -119,7 +119,7 @@ export default function Projets() {
 						<figcaption className={styles.card_text}>
 							<h2 className={styles.card_title}>La Chouette</h2>
 							<p className={styles.card_desc}>
-								Optimisation d'un site web existant
+								Optimisation d&#39un site web existant
 							</p>
 							<p className={styles.card_tools_desc}>HTML, CSS, SEO</p>
 						</figcaption>

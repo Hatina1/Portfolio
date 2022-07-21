@@ -28,6 +28,7 @@ export default function Career() {
 					<a
 						className={styles.link}
 						target="_blank"
+						rel="noreferrer"
 						href="https://drive.google.com/file/d/1c1N5DejjM7n8bMZAMA8w3kuCTKIomNpl/view?usp=sharing"
 						download="CV Hata Coulibaly"
 					>

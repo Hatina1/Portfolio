@@ -11,9 +11,9 @@ const Navbar = () => {
 		<div className={`${styles.navbar}`}>
 			<div className={`${styles.name}`}>Hata COULIBALY </div>
 			<div className={styles.links}>
-				<a href="/">
+				<Link href="/" passHref>
 					<FontAwesomeIcon icon={faHome} className={styles.icon} />
-				</a>{" "}
+				</Link>{" "}
 				<Link href="/projets" passHref>
 					<a
 						className={
