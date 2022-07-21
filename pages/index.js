@@ -11,7 +11,10 @@ export default function Home() {
 		<div className={styles.container}>
 			<Head>
 				<title>Hata Coulibaly Portfolio</title>
-				<meta name="description" content="Site développement web portfolio" />
+				<meta
+					name="description"
+					content="Portfolio site Hata Coulibaly développeuse web en Javascript, NodeJS, ReactJS"
+				/>
 				<link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
 			</Head>
 
